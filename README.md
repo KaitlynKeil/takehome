@@ -16,8 +16,8 @@ For each genre, we have several keywords that we expect to be present in the boo
 
 ```json
 {
-  “title”: “Hunger Games”,
-  “description”: “In a not-too-distant future, the United States of America
+  "title": "Hunger Games",
+  "description": "In a not-too-distant future, the United States of America
     has collapsed, weakened by drought, fire, famine, and war, to be
     replaced by Panem, a country divided into the Capitol and 12 districts.
     Each year, two young representatives from each district are selected
@@ -35,7 +35,7 @@ For each genre, we have several keywords that we expect to be present in the boo
     form alliances and friendships in the face of overwhelming odds; the
     plot is tense, dramatic, and engrossing. This book will definitely
     resonate with the generation raised on reality shows like 'Survivor'
-    and 'American Gladiator.' Book one of a planned trilogy.”
+    and 'American Gladiator.' Book one of a planned trilogy."
 }
 ```
 
@@ -79,7 +79,7 @@ literary fiction, 12.0
 
 There are a few formatting rules which will help us grade your submission properly.
 
-0) Include a space between the comma and the score when printing genres-point combinations
+0. Include a space between the comma and the score when printing genres-point combinations
 
     **Good**
     ```
@@ -93,7 +93,7 @@ There are a few formatting rules which will help us grade your submission proper
     sci-fi,       8.0
     ```
 
-0) Include a new line after each book + score section and no where else.
+0. Include a new line after each book + score section and no where else.
 
     **Good**
 
@@ -138,11 +138,11 @@ then please run
 
 `$ node bookbub_analysis.js python genre_detector.py`
 
-If your submission does not pass the provided test case, you will be alerted to the issue. Continue working on your program until the tool determines your output is correct. Oonce this happens, a zip file will be generated called `bookbub_analysis.zip`. Please include this file in your final submission.
+If your submission does not pass the provided test case, you will be alerted to the issue. Continue working on your program until the tool determines your output is correct. Once your program is working as expected, the tool will generated a zip-file named `bookbub_analysis.zip`. Please include this file in your final submission.
 
 If you experience any difficulties installing node or using our tool, don't sweat it. Just let us know when you submit and we'll be sure to inform the engineer grading your submission.
 
-### Submission
+### Submitting
 
 Please create a zip file containing
 0) Any source code files needed to run your program
