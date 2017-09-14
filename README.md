@@ -12,7 +12,7 @@ For each genre, we have several keywords that we expect to be present in the boo
 
 `total num keyword matches * avg point value of the unique matching keywords`
 
-**Example Book:**
+**Example Book:** [provided in this repo](sample_book_json.json)
 
 ```json
 {
@@ -39,7 +39,7 @@ For each genre, we have several keywords that we expect to be present in the boo
 }
 ```
 
-**Example Keywords CSV:**
+**Example Keywords CSV:** [provided in this repo](sample_genere_keyword_value.csv)
 
 ```csv
 Genre, Keyword, Points
@@ -53,7 +53,7 @@ sci-fi, future, 8
 sci-fi, spaceship, 9
 ```
 
-In the example above, the action score for Hunger Games is 15. Keywords “distant future” and “fight” both match and their average points are 5. With 3 total keyword matches, the action score is 15, with 3 * 5 = 15. The sci-fi score is just 8, since “future” is the only sci-fi match. The mystery score is 0 since there are no keyword matches.
+In the example above, the action score for Hunger Games is 15. Keywords `distant future` and `fight` both match and their average points are 5. With 3 total keyword matches, the action score is 15, with 3 * 5 = 15. The sci-fi score is just 8, since `future` is the only sci-fi match. The mystery score is 0 since there are no keyword matches.
 
 ### Your Challenge
 
