@@ -120,13 +120,13 @@ That's it!
 
 ### Analysis Tool
 
-When you have finished building your program, please use our analysis tool that's included in this repo. This tool helps us grade your submission and also helps ensure your program is functioning as expected.
+When you have finished building your program, please use our [analysis tool](bookbub_analyzer.js) that's included in this repo. This tool helps us grade your submission and also helps ensure your program is functioning as expected.
 
 To use our tool, you will need to have a working node environment. Read [here](https://nodejs.org/en/download/package-manager) for how to install node with your favorite package manager, or [here](https://nodejs.org/en/download) for building from source.
 
 Once node is installed, run the following from the command line.
 
-`$ node bookbub_analysis.js <code trigger>`
+`$ node bookbub_analyzer.js <code trigger>`
 
 The `<code trigger>` is the series of strings which is used to invoke your program, minus the command line arguments.
 
@@ -136,7 +136,7 @@ For example, if you invoke your program as follows.
 
 then please run
 
-`$ node bookbub_analysis.js python genre_detector.py`
+`$ node bookbub_analyzer.js python genre_detector.py`
 
 If your program does not produce the correct output for the sample test case, the analysis tool will print an error message. Continue working on your program until the tool determines your output is correct. Once your program works as expected, the tool will generated a zip-file named `bookbub_analysis.zip`. Please include this file in your final submission.
 
