@@ -39,7 +39,7 @@ For each genre, we have several keywords that we expect to be present in the boo
 }
 ```
 
-**Example Keywords CSV:** [provided in this repo](sample_genere_keyword_value.csv)
+**Example Keywords CSV:** [provided in this repo](sample_genre_keyword_value.csv)
 
 ```csv
 Genre, Keyword, Points
