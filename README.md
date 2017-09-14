@@ -79,7 +79,7 @@ literary fiction, 12.0
 
 There are a few formatting rules which will help us grade your submission properly.
 
-0. Include a space between the comma and the score when printing genres-point combinations
+1. Include a space between the comma and the score when printing genres-point combinations
 
     **Good**
     ```
@@ -93,7 +93,7 @@ There are a few formatting rules which will help us grade your submission proper
     sci-fi,       8.0
     ```
 
-0. Include a new line after each book + score section and no where else.
+1. Include a new line after each book + score section and no where else.
 
     **Good**
 
@@ -145,11 +145,11 @@ If you experience any difficulties installing node or using our tool, don't swea
 ### Submitting
 
 Please create a zip file containing
-0. Any source code files needed to run your program
+1. Any source code files needed to run your program
 
-0. The `bookbub_analysis.zip` file that was generated
+1. The `bookbub_analysis.zip` file that was generated
 
-0. A `README.md` explaining:
+1. A `README.md` explaining:
     * Any steps necessary to run your program
     * Any interesting trade-offs or edge cases you ran into (**this can really strengthen a submission**)
     * Approximately how long you spent (this is not timed, but it’s helpful for us)
