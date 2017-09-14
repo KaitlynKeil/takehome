@@ -12,7 +12,7 @@ For each genre, we have several keywords that we expect to be present in the boo
 
 `total num keyword matches * avg point value of the unique matching keywords`
 
-**Example Book:** [provided in this repo](sample_book_json.json)
+**Example Book:**
 
 ```json
 {
@@ -39,7 +39,7 @@ For each genre, we have several keywords that we expect to be present in the boo
 }
 ```
 
-**Example Keywords CSV:** [provided in this repo](sample_genre_keyword_value.csv)
+**Example Keywords CSV:**
 
 ```csv
 Genre, Keyword, Points
@@ -63,7 +63,7 @@ Write a command-line program that takes in two arguments:
 
 Your program should print out the book titles alphabetically, and underneath each book title should be the three highest scoring genres with a score greater than 0 (including the score for that genre).
 
-When run against the example files linked above, your program sholuld produce the following output:
+When run against the provided [book](sample_book_json.json) and [genre](sample_genre_keyword_value.csv) input files, your program sholuld produce the following output:
 
 ```
 Hunger Games
