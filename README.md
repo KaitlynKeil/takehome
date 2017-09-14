@@ -138,18 +138,18 @@ then please run
 
 `$ node bookbub_analysis.js python genre_detector.py`
 
-If your submission does not pass the provided test case, you will be alerted to the issue. Continue working on your program until the tool determines your output is correct. Once your program is working as expected, the tool will generated a zip-file named `bookbub_analysis.zip`. Please include this file in your final submission.
+If your program does not produce the correct output for the sample test case, the analysis tool will print an error message. Continue working on your program until the tool determines your output is correct. Once your program works as expected, the tool will generated a zip-file named `bookbub_analysis.zip`. Please include this file in your final submission.
 
 If you experience any difficulties installing node or using our tool, don't sweat it. Just let us know when you submit and we'll be sure to inform the engineer grading your submission.
 
 ### Submitting
 
 Please create a zip file containing
-0) Any source code files needed to run your program
+0. Any source code files needed to run your program
 
-0) The `bookbub_analysis.zip` file that was generated
+0. The `bookbub_analysis.zip` file that was generated
 
-0) A `README.md` explaining:
+0. A `README.md` explaining:
     * Any steps necessary to run your program
     * Any interesting trade-offs or edge cases you ran into (**this can really strengthen a submission**)
     * Approximately how long you spent (this is not timed, but it’s helpful for us)
